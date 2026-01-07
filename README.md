@@ -1,6 +1,6 @@
 # LRQ-DiT Generation Results
 
-This repository contains the generation results of various quantization methods applied to DiT (Diffusion Transformer) models, evaluated on two benchmark datasets: **OpenSORA** and **VBench**.
+This repository contains the generation results of various quantization methods applied to OpenSORA v1.2 (Diffusion Transformer) models, evaluated on two benchmark datasets: **OpenSORA 10 prompts** and **VBench 251 prompts**.
 
 
 
@@ -8,8 +8,8 @@ This repository contains the generation results of various quantization methods 
 
 - **FP**: Full-precision (baseline) results.
 - **WxAy**: Quantization setting where weights are quantized to *x* bits and activations to *y* bits.
-- **LRQ-DiT (ours)**: Our proposed Low-Rank Quantized DiT method, consistently placed as the 7th method in each group.
-- Each subfolder (e.g., `1.SmoothQuant/`) contains generated videos or evaluation metrics corresponding to that quantization technique.
+- **LRQ-DiT (ours)**: Our method
+- Each subfolder (e.g., `1.SmoothQuant/`) contains generated videos corresponding to that quantization technique.
 
 For more details, please refer to our paper or contact the authors.
 
@@ -21,8 +21,11 @@ For more details, please refer to our paper or contact the authors.
 ```text
 LRQ-DiT-Generation-Results/
 ├── OpenSORA_Set/
+│
 │ ├── FP/ # Full-precision baseline
+│ ├──
 │ ├── W3A4/
+│ │ ├──
 │ │ ├── 1.SmoothQuant/
 │ │ ├── 2.Q-DIT/
 │ │ ├── 3.PTQ4DT/
@@ -63,6 +66,12 @@ LRQ-DiT-Generation-Results/
 │ │ ├── 6.VDiT-Q/
 │ │ └── 7.LRQ-DIT (ours)/
 │ └── OpenSORA_Set.txt # Metadata or prompts for OpenSORA set
+│
+│
+│
+│
+│
+│
 ├── Vbench_Set/
 │ ├── FP/
 │ ├── W3A4/
