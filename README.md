@@ -4,12 +4,10 @@ This repository contains the generation results of various quantization methods 
 
 ## Directory Structure
 
-
-
 LRQ-DiT-Generation-Results/
 ├── OpenSORA_Set/
 │ ├── FP/ # Full-precision baseline
-│ ├── W3A4/ # Weight 3-bit / Activation 4-bit
+│ ├── W3A4/
 │ │ ├── 1.SmoothQuant/
 │ │ ├── 2.Q-DIT/
 │ │ ├── 3.PTQ4DT/
@@ -94,7 +92,6 @@ LRQ-DiT-Generation-Results/
 │ │ └── 7.LRQ-DIT (ours)/
 │ └── Vbench_Set.txt # Metadata or prompts for VBench set
 └── README.md
-
 
 ## Notes
 
