@@ -1,4 +1,5 @@
-# LRQ-DiT: Log-Rotation Post-Training Quantization of Diffusion Transformers for Image and Video Generation ————————  Generation Results
+# LRQ-DiT: Log-Rotation Post-Training Quantization of Diffusion Transformers for Image and Video Generation 
+#  Generation Results
 
 This repository contains the generation results of various quantization methods applied to OpenSORA v1.2 (Diffusion Transformer) models, evaluated on two benchmark datasets: **OpenSORA 10 prompts** and **VBench 251 prompts**.
 
