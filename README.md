@@ -21,11 +21,8 @@ For more details, please refer to our paper or contact the authors.
 ```text
 LRQ-DiT-Generation-Results/
 ├── OpenSORA_Set/
-│
 │ ├── FP/ # Full-precision baseline
-│ ├──
 │ ├── W3A4/
-│ │ ├──
 │ │ ├── 1.SmoothQuant/
 │ │ ├── 2.Q-DIT/
 │ │ ├── 3.PTQ4DT/
